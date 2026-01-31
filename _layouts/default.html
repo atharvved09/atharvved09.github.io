@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <style>
+    :root { --bg: #0b1220; --panel: #071126; --muted: #9aa6b2; --accent: #06b6d4; --card: #0f1720; }
+    body { margin:0; font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background: var(--bg); color: #e6eef6; }
+    .site-container { max-width: 960px; margin: 24px auto; padding: 0 16px; }
+    main { background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent); padding: 20px; border-radius: 10px; box-shadow: 0 6px 18px rgba(2,6,23,0.6); }
+    a { color: var(--accent); }
+    footer { color: var(--muted); font-size: 0.9rem; margin: 18px 0; text-align:center; }
+    /* responsive canvas container for pages that include inline styles */
+    .canvas-wrap { display:flex; justify-content:center; }
+  </style>
+</head>
+<body>
+  {% include header.html %}
+  <div class="site-container">
+    <main>
+      {{ content }}
+    </main>
+    <footer>Built with ❤️ · <a href="https://github.com/atharvved09/atharvved09.github.io">Repo</a></footer>
+  </div>
+</body>
+</html>
