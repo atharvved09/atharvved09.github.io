@@ -1,0 +1,9 @@
+title: Genetic Drift Lab
+email: ""
+description: "Simulations of random walks and Monte Carlo methods"
+baseurl: ""
+url: ""
+theme: jekyll-theme-cayman
+
+# Keep markdown posts and pages simple
+markdown: kramdown
