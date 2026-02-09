@@ -1,0 +1,88 @@
+- name: atharvved09.github.io
+  description: null
+  summary: My personal portfolio website, showcasing my journey in computer science,
+    bioinformatics, and generative art simulations.
+  url: https://github.com/atharvved09/atharvved09.github.io
+  homepage: null
+  language: HTML
+  stars: 0
+  updated_at: '2026-01-31T09:02:06Z'
+  featured: false
+  visibility: Public
+  visibility: Public
+- name: Bioinformatics-DB
+  description: A curated list of awesome Bioinformatics libraries and software.
+  summary: A comprehensive and curated database of bioinformatics libraries and software,
+    serving as an essential resource for researchers and developers in the field.
+  url: https://github.com/atharvved09/Bioinformatics-DB
+  homepage: ''
+  language: Jupyter Notebook
+  stars: 0
+  updated_at: '2026-01-01T19:42:47Z'
+  featured: true
+  visibility: Public
+- name: cas-offinder
+  description: An ultrafast and versatile algorithm that searches for potential off-target
+    sites of CRISPR/Cas-derived RNA-guided endonucleases.
+  summary: An ultrafast and versatile algorithm that searches for potential off-target
+    sites of CRISPR/Cas-derived RNA-guided endonucleases.
+  url: https://github.com/atharvved09/cas-offinder
+  homepage: null
+  language: null
+  stars: 0
+  updated_at: '2026-02-08T08:57:41Z'
+  featured: false
+  visibility: Public
+- name: CRISPRitz
+  description: Tool package to perform in-silico CRISPR analysis and assessment
+  summary: Tool package to perform in-silico CRISPR analysis and assessment
+  url: https://github.com/atharvved09/CRISPRitz
+  homepage: ''
+  language: null
+  stars: 0
+  updated_at: '2026-02-08T08:58:46Z'
+  featured: false
+  visibility: Public
+- name: CRISPRme
+  description: Variant-aware CRISPR off-target nomination
+  summary: Variant-aware CRISPR off-target nomination
+  url: https://github.com/atharvved09/CRISPRme
+  homepage: http://crisprme.di.univr.it
+  language: null
+  stars: 0
+  updated_at: '2026-02-08T09:06:22Z'
+  featured: false
+  visibility: Public
+- name: examples-scikit-bio
+  description: 'scikit-bio in biological research learning examples '
+  summary: 'scikit-bio in biological research learning examples '
+  url: https://github.com/atharvved09/examples-scikit-bio
+  homepage: null
+  language: Jupyter Notebook
+  stars: 0
+  updated_at: '2026-01-01T19:40:15Z'
+  featured: false
+  visibility: Public
+- name: openclaw
+  description: "Your own personal AI assistant. Any OS. Any Platform. The lobster\
+    \ way. \U0001F99E "
+  summary: "Your own personal AI assistant. Any OS. Any Platform. The lobster way.\
+    \ \U0001F99E "
+  url: https://github.com/atharvved09/openclaw
+  homepage: https://openclaw.ai
+  language: null
+  stars: 0
+  updated_at: '2026-01-31T08:48:48Z'
+  featured: false
+  visibility: Public
+- name: sort_animation
+  description: 'Shows various sorting algorithm via animation. '
+  summary: An interactive visualization tool demonstrating various sorting algorithms,
+    helping students and developers understand algorithmic efficiency through animation.
+  url: https://github.com/atharvved09/sort_animation
+  homepage: null
+  language: HTML
+  stars: 0
+  updated_at: '2026-01-22T05:53:20Z'
+  featured: true
+  visibility: Public
