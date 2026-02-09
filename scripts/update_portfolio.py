@@ -48,7 +48,8 @@ def generate_summary(repo):
     """
     Generates a 'rosey' summary for the repository.
     """
-    description = repo.get("description") or "No description provided."
+    language = (repo.get("primaryLanguage") or {}).get("name", "Unknown")
+    description = repo.get("description") or f"A project developed using {language}."
     name = repo["name"]
     
     # Custom enhancements for specific repos
@@ -75,17 +76,15 @@ def update_data():
 
     for repo in repos:
         # If we stick to the allow-list:
-        if repo["name"] not in INCLUDE_REPOS:
-            # We could optionally auto-include private repos if user asked?
-            # User said "include all private repos". 
-            # Let's add logic: if it's in INCLUDE_REPOS OR isPrivate is True?
-            # For safety, let's stick to INCLUDE_REPOS but warn/print about others.
-            # Actually, let's just process INCLUDE_REPOS for now to avoid cluttering with forks/junk.
+        is_private = repo.get("visibility") == "PRIVATE"
+
+        # Include if it is in the allow-list OR if it is a private repository
+        # This addresses the user's request to "cover the work in private repos"
+        if repo["name"] not in INCLUDE_REPOS and not is_private:
             continue
 
         print(f"Processing {repo['name']}...")
         
-        is_private = repo.get("visibility") == "PRIVATE"
         
         project = {
             "name": repo["name"],

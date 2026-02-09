@@ -6,9 +6,39 @@
   homepage: ''
   language: HTML
   stars: 0
-  updated_at: '2026-02-09T00:32:59Z'
+  updated_at: '2026-02-09T00:37:05Z'
   featured: false
   visibility: Public
+- name: HeadFirstJavaExamples
+  description: HeadFirstJavaExamples
+  summary: HeadFirstJavaExamples
+  url: null
+  homepage: ''
+  language: Java
+  stars: 0
+  updated_at: '2026-02-08T22:49:27Z'
+  featured: false
+  visibility: Private
+- name: TestProgram
+  description: ''
+  summary: A project developed using C.
+  url: null
+  homepage: ''
+  language: C
+  stars: 1
+  updated_at: '2026-02-08T21:04:58Z'
+  featured: false
+  visibility: Private
+- name: crispr
+  description: ''
+  summary: A project developed using Jupyter Notebook.
+  url: null
+  homepage: ''
+  language: Jupyter Notebook
+  stars: 1
+  updated_at: '2026-02-08T19:54:05Z'
+  featured: false
+  visibility: Private
 - name: openclaw
   description: "Your own personal AI assistant. Any OS. Any Platform. The lobster\
     \ way. \U0001F99E "
@@ -42,6 +72,26 @@
   updated_at: '2026-01-22T05:53:20Z'
   featured: true
   visibility: Public
+- name: SudokuPuzzleCreation
+  description: Example of backtracking program
+  summary: Example of backtracking program
+  url: null
+  homepage: ''
+  language: Java
+  stars: 0
+  updated_at: '2026-01-22T03:53:48Z'
+  featured: false
+  visibility: Private
+- name: ProgLangPerfTest
+  description: 'Test the performance of different popular programming languages '
+  summary: 'Test the performance of different popular programming languages '
+  url: null
+  homepage: ''
+  language: HTML
+  stars: 0
+  updated_at: '2026-01-22T03:34:05Z'
+  featured: false
+  visibility: Private
 - name: Bioinformatics-DB
   description: A curated list of awesome Bioinformatics libraries and software.
   summary: A comprehensive and curated database of bioinformatics libraries and software,
@@ -63,6 +113,46 @@
   updated_at: '2026-01-01T19:40:15Z'
   featured: false
   visibility: Public
+- name: Colaboratory_work
+  description: ''
+  summary: A project developed using Jupyter Notebook.
+  url: null
+  homepage: ''
+  language: Jupyter Notebook
+  stars: 0
+  updated_at: '2026-01-01T19:39:14Z'
+  featured: false
+  visibility: Private
+- name: windsurf-project
+  description: ''
+  summary: A project developed using JavaScript.
+  url: null
+  homepage: ''
+  language: JavaScript
+  stars: 0
+  updated_at: '2025-08-22T00:49:48Z'
+  featured: false
+  visibility: Private
+- name: SnakeGame
+  description: ''
+  summary: A project developed using Unknown.
+  url: null
+  homepage: ''
+  language: ''
+  stars: 0
+  updated_at: '2025-08-22T00:46:09Z'
+  featured: false
+  visibility: Private
+- name: cs043
+  description: ''
+  summary: A project developed using Python.
+  url: null
+  homepage: ''
+  language: Python
+  stars: 0
+  updated_at: '2025-03-16T05:26:38Z'
+  featured: false
+  visibility: Private
 - name: cas-offinder
   description: An ultrafast and versatile algorithm that searches for potential off-target
     sites of CRISPR/Cas-derived RNA-guided endonucleases.
