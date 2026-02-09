@@ -25,7 +25,7 @@ INCLUDE_REPOS = [
 def fetch_repos_gh_cli():
     """Fetches repositories using GitHub CLI (gh)."""
     # specific fields to fetch
-    fields = "name,description,url,homepage,language,stargazersCount,updatedAt,visibility,isPrivate"
+    fields = "name,description,url,homepageUrl,primaryLanguage,stargazerCount,updatedAt,visibility"
     cmd = [
         "gh", "repo", "list", USERNAME,
         "--limit", "200",
@@ -37,6 +37,7 @@ def fetch_repos_gh_cli():
         return json.loads(result.stdout)
     except subprocess.CalledProcessError as e:
         print(f"Error running gh cli: {e}")
+        print(f"Standard Error output:\n{e.stderr}")
         print("Ensure 'gh' is installed and you are authenticated (gh auth login).")
         return []
     except FileNotFoundError:
@@ -84,16 +85,16 @@ def update_data():
 
         print(f"Processing {repo['name']}...")
         
-        is_private = repo.get("isPrivate", False) or repo.get("visibility") == "PRIVATE"
+        is_private = repo.get("visibility") == "PRIVATE"
         
         project = {
             "name": repo["name"],
             "description": repo.get("description", ""),
             "summary": generate_summary(repo),
             "url": repo["url"],
-            "homepage": repo.get("homepage", ""),
-            "language": repo.get("language", ""),
-            "stars": repo.get("stargazersCount", 0),
+            "homepage": repo.get("homepageUrl", ""),
+            "language": (repo.get("primaryLanguage") or {}).get("name", ""),
+            "stars": repo.get("stargazerCount", 0),
             "updated_at": repo.get("updatedAt", ""),
             "featured": repo["name"] in ["Bioinformatics-DB", "sort_animation"],
             "visibility": "Private" if is_private else "Public"
