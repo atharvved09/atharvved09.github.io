@@ -142,7 +142,11 @@ Here is a collection of my open-source projects and simulations.
       <span class="featured-badge">Featured</span>
       {% endif %}
       <h3 class="project-title">
+        {% if project.url %}
         <a href="{{ project.url }}" target="_blank">{{ project.name }}</a>
+        {% else %}
+        {{ project.name }}
+        {% endif %}
       </h3>
     </div>
     <p class="project-desc">{{ project.summary }}</p>

@@ -91,7 +91,7 @@ def update_data():
             "name": repo["name"],
             "description": repo.get("description", ""),
             "summary": generate_summary(repo),
-            "url": repo["url"],
+            "url": None if is_private else repo["url"],
             "homepage": repo.get("homepageUrl", ""),
             "language": (repo.get("primaryLanguage") or {}).get("name", ""),
             "stars": repo.get("stargazerCount", 0),
