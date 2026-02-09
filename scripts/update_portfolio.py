@@ -44,21 +44,25 @@ def fetch_repos_gh_cli():
         print("GitHub CLI ('gh') not found. Please install it.")
         return []
 
+# Load enhancements
+try:
+    with open("_data/repo_enhancements.yml", "r") as f:
+        REPO_ENHANCEMENTS = yaml.safe_load(f) or {}
+except FileNotFoundError:
+    REPO_ENHANCEMENTS = {}
+
 def generate_summary(repo):
     """
     Generates a 'rosey' summary for the repository.
     """
-    language = (repo.get("primaryLanguage") or {}).get("name", "Unknown")
-    description = repo.get("description") or f"A project developed using {language}."
     name = repo["name"]
     
-    # Custom enhancements for specific repos
-    if name == "Bioinformatics-DB":
-        return "A comprehensive and curated database of bioinformatics libraries and software, serving as an essential resource for researchers and developers in the field."
-    elif name == "sort_animation":
-        return "An interactive visualization tool demonstrating various sorting algorithms, helping students and developers understand algorithmic efficiency through animation."
-    elif name == "atharvved09.github.io":
-        return "My personal portfolio website, showcasing my journey in computer science, bioinformatics, and generative art simulations."
+    # Check if we have an enhanced summary
+    if name in REPO_ENHANCEMENTS:
+        return REPO_ENHANCEMENTS[name].get("summary", "")
+
+    language = (repo.get("primaryLanguage") or {}).get("name", "Unknown")
+    description = repo.get("description") or f"A project developed using {language}."
     
     return description
 
@@ -86,9 +90,13 @@ def update_data():
         print(f"Processing {repo['name']}...")
         
         
+        # Get description from enhancements if available, otherwise from repo
+        enhanced_data = REPO_ENHANCEMENTS.get(repo["name"], {})
+        description = enhanced_data.get("description", repo.get("description", ""))
+
         project = {
             "name": repo["name"],
-            "description": repo.get("description", ""),
+            "description": description,
             "summary": generate_summary(repo),
             "url": None if is_private else repo["url"],
             "homepage": repo.get("homepageUrl", ""),

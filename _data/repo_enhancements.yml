@@ -1,0 +1,62 @@
+# AI-Generated enhancements for repositories
+# Format:
+# repo_name:
+#   description: "Short description for GitHub"
+#   summary: "Longer, rich summary for the portfolio"
+
+# Existing knowns (moved from script to here for consistency)
+Bioinformatics-DB:
+  description: "A curated list of awesome Bioinformatics libraries and software."
+  summary: "A comprehensive and curated database of bioinformatics libraries and software, serving as an essential resource for researchers and developers in the field."
+
+sort_animation:
+  description: "Shows various sorting algorithm via animation."
+  summary: "An interactive visualization tool demonstrating various sorting algorithms, helping students and developers understand algorithmic efficiency through animation."
+
+atharvved09.github.io:
+  description: "My personal portfolio website."
+  summary: "My personal portfolio website, showcasing my journey in computer science, bioinformatics, and generative art simulations."
+
+HeadFirstJavaExamples:
+  description: "Java exercises from Head First Java book."
+  summary: "A collection of Java programming exercises and examples from the 'Head First Java' book, covering object-oriented concepts, networking, and data structures."
+
+TestProgram:
+  description: "C programming exercises and examples."
+  summary: "A progressive series of C programming exercises demonstrating mastery of pointers, memory management, and system calls."
+
+crispr:
+  description: "CRISPR PAM site analysis and gene location mapping."
+  summary: "A computational biology workflow developed in Jupyter Notebooks for identifying CRISPR PAM sites and determining their location (exon/intron) within candidate genes using the human genome (hg38)."
+
+openclaw:
+  description: "Personal AI assistant with multi-channel support and local execution."
+  summary: "A comprehensive, privacy-focused personal AI assistant capable of running locally. Features a multi-channel inbox (WhatsApp, Discord, Slack), voice interaction, and a local-first gateway architecture."
+
+SudokuPuzzleCreation:
+  description: "Java-based Sudoku puzzle generator with backtracking algorithm."
+  summary: "A Java application that generates valid, unique Sudoku puzzles of varying difficulty levels (Easy, Medium, Hard) using a backtracking algorithm. Features include a console interface, customizable difficulty, and puzzle validation."
+
+ProgLangPerfTest:
+  description: "Matrix multiplication performance benchmark across C, Rust, Java, Python, and JS."
+  summary: "A comparative performance benchmark evaluating matrix multiplication execution speeds across five major programming languages: C, Rust, Java, Python, and JavaScript. Includes visualization scripts to analyze the efficiency of compiled vs. interpreted languages."
+
+examples-scikit-bio:
+  description: "Bioinformatics tutorials using scikit-bio."
+  summary: "A collection of interactive Jupyter Notebook tutorials for bioinformatics analysis using scikit-bio. Covers topics ranging from basic sequence manipulation to advanced microbiome analysis, omics data integration, and protein language modeling."
+
+Colaboratory_work:
+  description: "Machine Learning and Deep Learning notebooks."
+  summary: "A comprehensive collection of Machine Learning and Deep Learning projects implemented in Jupyter Notebooks. Includes implementations of Convolutional Neural Networks (CNNs), Logistic Regression, NLP models, and precision medicine analytics."
+
+windsurf-project:
+  description: "Interactive web-based Snake game."
+  summary: "A classic Snake game implementation for the web, featuring smooth animations, score tracking, and adjustable speed settings. Built with vanilla HTML5 Canvas and JavaScript."
+
+SnakeGame:
+  description: "Snake game project structure."
+  summary: "A repository structure for a Snake game implementation."
+
+cs043:
+  description: "Network programming and database examples in Python."
+  summary: "Coursework and examples for CS043, focusing on network programming (HTTP server/client implementation) and database management using SQLite and Python."

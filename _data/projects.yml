@@ -1,54 +1,58 @@
 - name: atharvved09.github.io
-  description: ''
+  description: My personal portfolio website.
   summary: My personal portfolio website, showcasing my journey in computer science,
     bioinformatics, and generative art simulations.
   url: https://github.com/atharvved09/atharvved09.github.io
   homepage: ''
   language: HTML
   stars: 0
-  updated_at: '2026-02-09T00:37:05Z'
+  updated_at: '2026-02-09T00:39:51Z'
   featured: false
   visibility: Public
 - name: HeadFirstJavaExamples
-  description: HeadFirstJavaExamples
-  summary: HeadFirstJavaExamples
+  description: Java exercises from Head First Java book.
+  summary: A collection of Java programming exercises and examples from the 'Head
+    First Java' book, covering object-oriented concepts, networking, and data structures.
   url: null
   homepage: ''
   language: Java
   stars: 0
-  updated_at: '2026-02-08T22:49:27Z'
+  updated_at: '2026-02-09T00:45:50Z'
   featured: false
   visibility: Private
 - name: TestProgram
-  description: ''
-  summary: A project developed using C.
+  description: C programming exercises and examples.
+  summary: A progressive series of C programming exercises demonstrating mastery of
+    pointers, memory management, and system calls.
   url: null
   homepage: ''
   language: C
   stars: 1
-  updated_at: '2026-02-08T21:04:58Z'
+  updated_at: '2026-02-09T00:45:51Z'
   featured: false
   visibility: Private
 - name: crispr
-  description: ''
-  summary: A project developed using Jupyter Notebook.
+  description: CRISPR PAM site analysis and gene location mapping.
+  summary: A computational biology workflow developed in Jupyter Notebooks for identifying
+    CRISPR PAM sites and determining their location (exon/intron) within candidate
+    genes using the human genome (hg38).
   url: null
   homepage: ''
   language: Jupyter Notebook
   stars: 1
-  updated_at: '2026-02-08T19:54:05Z'
+  updated_at: '2026-02-09T00:45:52Z'
   featured: false
   visibility: Private
 - name: openclaw
-  description: "Your own personal AI assistant. Any OS. Any Platform. The lobster\
-    \ way. \U0001F99E "
-  summary: "Your own personal AI assistant. Any OS. Any Platform. The lobster way.\
-    \ \U0001F99E "
+  description: Personal AI assistant with multi-channel support and local execution.
+  summary: A comprehensive, privacy-focused personal AI assistant capable of running
+    locally. Features a multi-channel inbox (WhatsApp, Discord, Slack), voice interaction,
+    and a local-first gateway architecture.
   url: https://github.com/atharvved09/openclaw
   homepage: https://openclaw.ai
   language: TypeScript
   stars: 0
-  updated_at: '2026-01-31T08:48:48Z'
+  updated_at: '2026-02-09T00:45:53Z'
   featured: false
   visibility: Public
 - name: CRISPRme
@@ -62,7 +66,7 @@
   featured: false
   visibility: Public
 - name: sort_animation
-  description: 'Shows various sorting algorithm via animation. '
+  description: Shows various sorting algorithm via animation.
   summary: An interactive visualization tool demonstrating various sorting algorithms,
     helping students and developers understand algorithmic efficiency through animation.
   url: https://github.com/atharvved09/sort_animation
@@ -73,23 +77,29 @@
   featured: true
   visibility: Public
 - name: SudokuPuzzleCreation
-  description: Example of backtracking program
-  summary: Example of backtracking program
+  description: Java-based Sudoku puzzle generator with backtracking algorithm.
+  summary: A Java application that generates valid, unique Sudoku puzzles of varying
+    difficulty levels (Easy, Medium, Hard) using a backtracking algorithm. Features
+    include a console interface, customizable difficulty, and puzzle validation.
   url: null
   homepage: ''
   language: Java
   stars: 0
-  updated_at: '2026-01-22T03:53:48Z'
+  updated_at: '2026-02-09T00:47:07Z'
   featured: false
   visibility: Private
 - name: ProgLangPerfTest
-  description: 'Test the performance of different popular programming languages '
-  summary: 'Test the performance of different popular programming languages '
+  description: Matrix multiplication performance benchmark across C, Rust, Java, Python,
+    and JS.
+  summary: 'A comparative performance benchmark evaluating matrix multiplication execution
+    speeds across five major programming languages: C, Rust, Java, Python, and JavaScript.
+    Includes visualization scripts to analyze the efficiency of compiled vs. interpreted
+    languages.'
   url: null
   homepage: ''
   language: HTML
   stars: 0
-  updated_at: '2026-01-22T03:34:05Z'
+  updated_at: '2026-02-09T00:47:07Z'
   featured: false
   visibility: Private
 - name: Bioinformatics-DB
@@ -104,53 +114,61 @@
   featured: true
   visibility: Public
 - name: examples-scikit-bio
-  description: 'scikit-bio in biological research learning examples '
-  summary: 'scikit-bio in biological research learning examples '
+  description: Bioinformatics tutorials using scikit-bio.
+  summary: A collection of interactive Jupyter Notebook tutorials for bioinformatics
+    analysis using scikit-bio. Covers topics ranging from basic sequence manipulation
+    to advanced microbiome analysis, omics data integration, and protein language
+    modeling.
   url: https://github.com/atharvved09/examples-scikit-bio
   homepage: ''
   language: Jupyter Notebook
   stars: 0
-  updated_at: '2026-01-01T19:40:15Z'
+  updated_at: '2026-02-09T00:47:08Z'
   featured: false
   visibility: Public
 - name: Colaboratory_work
-  description: ''
-  summary: A project developed using Jupyter Notebook.
+  description: Machine Learning and Deep Learning notebooks.
+  summary: A comprehensive collection of Machine Learning and Deep Learning projects
+    implemented in Jupyter Notebooks. Includes implementations of Convolutional Neural
+    Networks (CNNs), Logistic Regression, NLP models, and precision medicine analytics.
   url: null
   homepage: ''
   language: Jupyter Notebook
   stars: 0
-  updated_at: '2026-01-01T19:39:14Z'
+  updated_at: '2026-02-09T00:47:10Z'
   featured: false
   visibility: Private
 - name: windsurf-project
-  description: ''
-  summary: A project developed using JavaScript.
+  description: Interactive web-based Snake game.
+  summary: A classic Snake game implementation for the web, featuring smooth animations,
+    score tracking, and adjustable speed settings. Built with vanilla HTML5 Canvas
+    and JavaScript.
   url: null
   homepage: ''
   language: JavaScript
   stars: 0
-  updated_at: '2025-08-22T00:49:48Z'
+  updated_at: '2026-02-09T00:47:10Z'
   featured: false
   visibility: Private
 - name: SnakeGame
-  description: ''
-  summary: A project developed using Unknown.
+  description: Snake game project structure.
+  summary: A repository structure for a Snake game implementation.
   url: null
   homepage: ''
   language: ''
   stars: 0
-  updated_at: '2025-08-22T00:46:09Z'
+  updated_at: '2026-02-09T00:47:11Z'
   featured: false
   visibility: Private
 - name: cs043
-  description: ''
-  summary: A project developed using Python.
+  description: Network programming and database examples in Python.
+  summary: Coursework and examples for CS043, focusing on network programming (HTTP
+    server/client implementation) and database management using SQLite and Python.
   url: null
   homepage: ''
   language: Python
   stars: 0
-  updated_at: '2025-03-16T05:26:38Z'
+  updated_at: '2026-02-09T00:47:12Z'
   featured: false
   visibility: Private
 - name: cas-offinder
